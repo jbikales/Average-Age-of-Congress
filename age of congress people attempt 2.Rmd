@@ -14,7 +14,6 @@ library(gov.1005.data)
 
 ```{r}
 data("congress")
-head("congress")
 congress %>% arrange(desc(age))
 
 ```
